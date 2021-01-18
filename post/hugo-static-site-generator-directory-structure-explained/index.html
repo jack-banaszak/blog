@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hugo Static Site Generator Directory Structure Explained - Jack Banaszak&#39;s Blog</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Hugo Static Site Generator Directory Structure Explained" />
+<meta property="og:description" content="Directory Structure Explained The following is a high-level overview of each of the directories with links to each of their respective sections within the Hugo docs.
+  archetypes
+You can create new content files in Hugo using the hugo new command. By default, Hugo will create new content files with at least date, title (inferred from the file name), and draft = true. This saves time and promotes consistency for sites using multiple content types." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jack-banaszak.github.io/blog/post/hugo-static-site-generator-directory-structure-explained/" />
+<meta property="article:published_time" content="2021-01-18T08:12:18-05:00" />
+<meta property="article:modified_time" content="2021-01-18T08:12:18-05:00" />
+
+		<meta itemprop="name" content="Hugo Static Site Generator Directory Structure Explained">
+<meta itemprop="description" content="Directory Structure Explained The following is a high-level overview of each of the directories with links to each of their respective sections within the Hugo docs.
+  archetypes
+You can create new content files in Hugo using the hugo new command. By default, Hugo will create new content files with at least date, title (inferred from the file name), and draft = true. This saves time and promotes consistency for sites using multiple content types.">
+<meta itemprop="datePublished" content="2021-01-18T08:12:18-05:00" />
+<meta itemprop="dateModified" content="2021-01-18T08:12:18-05:00" />
+<meta itemprop="wordCount" content="463">
+
+
+
+<meta itemprop="keywords" content="" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/blog/css/style.css">
+	<link rel="stylesheet" href="/blog/css/custom.css">
+
+	<link rel="shortcut icon" href="/blog/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo logo--mixed">
+		<a class="logo__link" href="/blog/" title="Jack Banaszak" rel="home">
+			<div class="logo__item logo__imagebox">
+					<img class="logo__img" src="/blog/img/jb-profile.png">
+				</div><div class="logo__item logo__text">
+					<div class="logo__title">Jack Banaszak</div>
+					<div class="logo__tagline">Good Vibes and a General Sense of Adventure</div>
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Hugo Static Site Generator Directory Structure Explained</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Jack Banaszak</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-01-18T08:12:18-05:00">2021-01-18</time></div></div>
+		</header>
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#directory-structure-explained">Directory Structure Explained</a></li>
+  </ul>
+</nav>
+	</div>
+</div>
+<div class="content post__content clearfix">
+			<h2 id="directory-structure-explained">Directory Structure Explained</h2>
+<p>The following is a high-level overview of each of the directories with  links to each of their respective sections within the Hugo docs.</p>
+<ul>
+<li>
+<p><a href="https://gohugo.io/content-management/archetypes/"><code>archetypes</code></a></p>
+<p>You can create new content files in Hugo using the <code>hugo new</code> command. By default, Hugo will create new content files with at least <code>date</code>, <code>title</code> (inferred from the file name), and <code>draft = true</code>. This saves time and promotes consistency for sites using multiple content types. You can create your own <a href="https://gohugo.io/content-management/archetypes/">archetypes</a> with custom preconfigured front matter fields as well.</p>
+</li>
+<li>
+<p><a href="https://gohugo.io/hugo-pipes/introduction/#asset-directory"><code>assets</code></a></p>
+<p>Stores all the files which need be processed by <a href="https://gohugo.io/hugo-pipes/">Hugo Pipes</a>. Only the files whose <code>.Permalink</code> or <code>.RelPermalink</code> are used will be published to the <code>public</code> directory. Note: assets directory is not created by default.</p>
+</li>
+<li>
+<p><a href="https://gohugo.io/getting-started/configuration/"><code>config</code></a></p>
+<p>Hugo ships with a large number of <a href="https://gohugo.io/getting-started/configuration/#all-variables-yaml">configuration directives</a>. The <a href="https://gohugo.io/getting-started/configuration/#configuration-directory">config directory</a> is where those directives are stored as JSON, YAML, or TOML files.  Every root setting object can stand as its own file and structured by  environments. Projects with minimal settings and no need for environment awareness can use a single <code>config.toml</code> file at its root.</p>
+</li>
+</ul>
+<p>Many sites may need little to no configuration, but Hugo ships with a large number of <a href="https://gohugo.io/getting-started/configuration/#all-variables-yaml">configuration directives</a> for more granular directions on how you want Hugo to build your website. Note: config directory is not created by default.</p>
+<ul>
+<li>
+<p><a href="https://gohugo.io/content-management/organization/"><code>content</code></a></p>
+<p>All content for your website will live inside this directory. Each top-level folder in Hugo is considered a <a href="https://gohugo.io/content-management/sections/">content section</a>. For example, if your site has three main sections—<code>blog</code>, <code>articles</code>, and <code>tutorials</code>—you will have three directories at <code>content/blog</code>, <code>content/articles</code>, and <code>content/tutorials</code>. Hugo uses sections to assign default <a href="https://gohugo.io/content-management/types/">content types</a>.</p>
+</li>
+<li>
+<p><a href="https://gohugo.io/templates/data-templates/"><code>data</code></a></p>
+<p>This directory is used to store configuration files that can be used by Hugo when generating your website. You can write these files in  YAML, JSON, or TOML format. In addition to the files you add to this  folder, you can also create <a href="https://gohugo.io/templates/data-templates/">data templates</a> that pull from dynamic content.</p>
+</li>
+<li>
+<p><a href="https://gohugo.io/templates/"><code>layouts</code></a></p>
+<p>Stores templates in the form of <code>.html</code> files that specify how views of your content will be rendered into a static website. Templates include <a href="https://gohugo.io/templates/list/">list pages</a>, your <a href="https://gohugo.io/templates/homepage/">homepage</a>, <a href="https://gohugo.io/templates/taxonomy-templates/">taxonomy templates</a>, <a href="https://gohugo.io/templates/partials/">partials</a>, <a href="https://gohugo.io/templates/single-page-templates/">single page templates</a>, and more.</p>
+</li>
+<li>
+<p><a href="https://gohugo.io/content-management/static-files/"><code>static</code></a></p>
+<p>Stores all the static content: images, CSS, JavaScript, etc. When Hugo builds  your site, all assets inside your static directory are copied over  as-is. A good example of using the <code>static</code> folder is for <a href="https://support.google.com/analytics/answer/1142414?hl=en">verifying site ownership on Google Search Console</a>, where you want Hugo to copy over a complete HTML file without modifying its content.</p>
+</li>
+</ul>
+<p>From <strong>Hugo 0.31</strong> you can have multiple static directories.</p>
+<ul>
+<li>
+<p>resources</p>
+<p>Caches some files to speed up generation. Can be also used by template authors to distribute built SASS files, so you don’t have to have the  preprocessor installed. Note: resources directory is not created by  default.</p>
+</li>
+</ul>
+<p>##</p>
+
+		</div>
+	</article>
+</main>
+
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Jack Banaszak avatar" src="/blog/img/jb-profile.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Jack Banaszak</span>
+	</div>
+	<div class="authorbox__description">
+		My name is Jack Banaszak
+	</div>
+</div>
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/blog/post/mainroad-theme-readme/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Mainroad Theme Readme</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2021 Jack R. H. Banaszak.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/blog/js/menu.js"></script>
+<script src="/blog/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>
