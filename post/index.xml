@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Jack Banaszak&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jan 2021 08:13:54 -0500</lastBuildDate><atom:link href="https://jack-banaszak.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jan 2021 10:14:24 -0500</lastBuildDate><atom:link href="https://jack-banaszak.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lepton Snippet Manager GUI Config</title>
+      <link>https://jack-banaszak.github.io/blog/post/lepton-macos-gui-config/</link>
+      <pubDate>Mon, 18 Jan 2021 10:14:24 -0500</pubDate>
+      
+      <guid>https://jack-banaszak.github.io/blog/post/lepton-macos-gui-config/</guid>
+      <description>~/.leptonrc { &amp;#34;theme&amp;#34;: &amp;#34;dark&amp;#34;, &amp;#34;autoUpdate&amp;#34;: false, &amp;#34;snippet&amp;#34;: { &amp;#34;expanded&amp;#34;: true, &amp;#34;newSnippetPrivate&amp;#34;: true, &amp;#34;sorting&amp;#34;: &amp;#34;updated_at&amp;#34;, &amp;#34;sortingReverse&amp;#34;: true }, &amp;#34;editor&amp;#34; : { &amp;#34;tabSize&amp;#34;: 4, &amp;#34;validateFilename&amp;#34;: true }, &amp;#34;userPanel&amp;#34;: { &amp;#34;hideProfilePhoto&amp;#34;: false }, &amp;#34;logger&amp;#34;: { &amp;#34;level&amp;#34;: &amp;#34;debug&amp;#34; }, &amp;#34;proxy&amp;#34;: { &amp;#34;enable&amp;#34;: false, &amp;#34;address&amp;#34;: &amp;#34;socks://localhost:1080&amp;#34; }, &amp;#34;notifications&amp;#34;: { &amp;#34;success&amp;#34;: true, &amp;#34;failure&amp;#34;: true }, &amp;#34;shortcuts&amp;#34;: { &amp;#34;keyShortcutForSearch&amp;#34;: &amp;#34;CMD+F&amp;#34;, &amp;#34;keyNewGist&amp;#34;: &amp;#34;CommandOrControl+N&amp;#34;, &amp;#34;keyEditGist&amp;#34;: &amp;#34;CommandOrControl+E&amp;#34;, &amp;#34;keySubmitGist&amp;#34;: &amp;#34;CommandOrControl+S&amp;#34;, &amp;#34;keyImmersiveMode&amp;#34;: &amp;#34;CommandOrControl+I&amp;#34;, &amp;#34;keyAboutPage&amp;#34;: &amp;#34;CommandOrControl+,&amp;#34;, &amp;#34;keyDashboard&amp;#34;: &amp;#34;CommandOrControl+D&amp;#34;, &amp;#34;keyEditorExit&amp;#34;: &amp;#34;CommandOrControl+Escape&amp;#34;, &amp;#34;keySyncGists&amp;#34;: &amp;#34;CommandOrControl+R&amp;#34; }, &amp;#34;enterprise&amp;#34;: { &amp;#34;enable&amp;#34;: false, &amp;#34;host&amp;#34;: &amp;#34;github_enterprise_host&amp;#34;, &amp;#34;token&amp;#34;: &amp;#34;token_with_gist_enabled&amp;#34;, &amp;#34;avatarUrl&amp;#34;: &amp;#34;optional_avatar_url&amp;#34; } } </description>
+    </item>
+    
     <item>
       <title>Mainroad Theme Readme</title>
       <link>https://jack-banaszak.github.io/blog/post/mainroad-theme-readme/</link>
