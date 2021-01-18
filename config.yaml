@@ -37,7 +37,7 @@ Params:
   - author
   - date
   - categories
-  - translations
+  # - translations
   # Specify section pages to show on home page and the 'Recent articles' widget
   mainSections:
   - post
@@ -78,9 +78,9 @@ Params:
 
   sidebar:
     # Configure layout for home page
-    home: right
+    home:   right
     # Configure layout for list pages
-    list: left
+    list:   left
     # Configure layout for single pages
     single: false
     # Enable widgets in given order
@@ -90,7 +90,7 @@ Params:
     - categories
     - taglist
     - social
-    - languages
+    # - languages
     # alternatively 'ddg-search' can be used, to search via DuckDuckGo
     # widgets: ['ddg-search', 'recent', 'categories', 'taglist', 'social', 'languages']
 
@@ -103,12 +103,12 @@ Params:
     social:
       # Enable parts of social widget
       facebook:  jack-banaszak
-      twitter:   null
-      instagram: null
+      #twitter:   null
+      #instagram: null
       linkedin:  jack-banaszak
-      telegram:  null
+      #telegram:  null
       github:    jack-banaszak
-      gitlab:    null
+      #gitlab:    null
       bitbucket: the-space-monkey
       email:     jack.r.banaszak@gmail.com
 
