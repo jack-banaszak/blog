@@ -1,10 +1,10 @@
 ---
 Title: Lepton Snippet Manager GUI Config
 date: 2021-01-18T10:14:24-05:00
-draft: true
+draft: false
 ---
 
-## `~/.leptonrc` 
+## `~/.leptonrc`
 
 ```json
 
@@ -14,7 +14,7 @@ draft: true
     "snippet": {
         "expanded": true,
         "newSnippetPrivate": true,
-        "sorting": "updated_at", 
+        "sorting": "updated_at",
         "sortingReverse": true
     },
     "editor" : {
