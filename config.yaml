@@ -1,0 +1,123 @@
+baseURL:      https://jack-banaszak.github.io/blog/
+languageCode: en-us
+title:        Jack Banaszak's Blog
+theme:        mainroad
+
+# Used in authorbox
+Author:
+  name:   Jack Banaszak
+  bio:    My name is Jack Banaszak
+  # Rel to Static
+  avatar: img/jb-profile.png
+
+
+Params:
+  # Deprecated in favor of .Site.Params.logo.subtitle
+  subtitle:      'Caltech 2019 --> NYC'
+  # Site description. Used in meta description
+  description:   Jack's Personal blog about everything
+  # Footer copyright holder, otherwise will use site title
+  copyright:     Jack R. H. Banaszak
+  # Enable OpenGraph if true
+  opengraph:     true
+  # Enable Schema
+  schema:        true
+  # Enable Twitter Cards if true
+  twitter_cards: false
+  # Show 'Read more' button in list if true
+  readmore:      false
+  # Show authorbox at bottom of pages if true
+  authorbox:     true
+  # Enable Table of Contents
+  toc:           true
+  # Show pager navigation (prev/next links) at the bottom of pages if true
+  pager:         true
+  # Order of post meta information
+  post_meta:
+  - author
+  - date
+  - categories
+  - translations
+  # Specify section pages to show on home page and the 'Recent articles' widget
+  mainSections:
+  - post
+  - blog
+  - news
+  # Change the format of dates
+  dateformat:      2006-01-02
+  mathjax:         true
+  mathjaxPath:     https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js
+  # Specify MathJax config
+  mathjaxConfig:   TeX-AMS-MML_HTMLorMML
+  # Load Google Fonts
+  googleFontsLink: https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700
+  # Deprecated in favor of .Site.Params.style.vars.highlightColor
+  highlightColor: ''
+  #  Include custom CSS files
+  customCSS:
+  - css/custom.css
+  # Include custom JS files
+  customJS:
+  - js/custom.js
+
+  style:
+    vars:
+      # Override highlight color
+      highlightColor: #e22d30
+      # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font Take care of different quotes OR escaping symbols in these params if necessary
+      fontFamilyPrimary:   '''Open Sans'', Helvetica, Arial, sans-serif'
+      fontFamilySecondary: 'SFMono-Regular, Menlo, Monaco, Consolas, ''Liberation Mono'', ''Courier New'', monospace'
+
+  logo:
+    # Logo image. Path relative to static
+    image: img/jb-profile.png
+    # Logo title, otherwise will use site title
+    title: Jack Banaszak
+    # Logo subtitle
+    subtitle: Good Vibes and a General Sense of Adventure
+
+  sidebar:
+    # Configure layout for home page
+    home: right
+    # Configure layout for list pages
+    list: left
+    # Configure layout for single pages
+    single: false
+    # Enable widgets in given order
+    widgets:
+    - search
+    - recent
+    - categories
+    - taglist
+    - social
+    - languages
+    # alternatively 'ddg-search' can be used, to search via DuckDuckGo
+    # widgets: ['ddg-search', 'recent', 'categories', 'taglist', 'social', 'languages']
+
+  widgets:
+    # Set the number of articles in the 'Recent articles' widget
+    recent_num: 5
+    # Enable counter for each tag in 'Tags' widget
+    tags_counter: false
+
+    social:
+      # Enable parts of social widget
+      facebook:  jack-banaszak
+      twitter:   null
+      instagram: null
+      linkedin:  jack-banaszak
+      telegram:  null
+      github:    jack-banaszak
+      gitlab:    null
+      bitbucket: the-space-monkey
+      email:     jack.r.banaszak@gmail.com
+
+      # Custom social links
+      custom:
+      # - title: Youtube
+      #   url:   https://youtube.com/user/username
+      #   Optional. Path relative to 'layouts/partials'
+      #   icon:  youtube.svg
+
+      - title: 'My Home Page'
+        url:   https://jack-banaszak.github.io/
