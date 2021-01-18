@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Jack Banaszak&#39;s Blog</title>
+    <link>https://jack-banaszak.github.io/blog/post/</link>
+    <description>Recent content in Posts on Jack Banaszak&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Jan 2021 08:13:54 -0500</lastBuildDate><atom:link href="https://jack-banaszak.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mainroad Theme Readme</title>
+      <link>https://jack-banaszak.github.io/blog/post/mainroad-theme-readme/</link>
+      <pubDate>Mon, 18 Jan 2021 08:13:54 -0500</pubDate>
+      
+      <guid>https://jack-banaszak.github.io/blog/post/mainroad-theme-readme/</guid>
+      <description>Mainroad Mainroad is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme.
+Demo (Fast update) | Standart Demo
+Features:
+ Responsive design Main &amp;amp; secondary menus Widgetized sidebar Translations. Over 15 languages and counting Configurable theme settings (sidebar position, author box, post navigation, highlight color) via config.toml Hugo internal templates (Open Graph, Schema, Twitter Cards, Disqus, Google Analytics) Wide cross-browser compatibility  Desktop: IE11+, Chrome, Firefox, Safari Mobile: Android browser (on Android 4.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Static Site Generator Directory Structure Explained</title>
+      <link>https://jack-banaszak.github.io/blog/post/hugo-static-site-generator-directory-structure-explained/</link>
+      <pubDate>Mon, 18 Jan 2021 08:12:18 -0500</pubDate>
+      
+      <guid>https://jack-banaszak.github.io/blog/post/hugo-static-site-generator-directory-structure-explained/</guid>
+      <description>Directory Structure Explained The following is a high-level overview of each of the directories with links to each of their respective sections within the Hugo docs.
+  archetypes
+You can create new content files in Hugo using the hugo new command. By default, Hugo will create new content files with at least date, title (inferred from the file name), and draft = true. This saves time and promotes consistency for sites using multiple content types.</description>
+    </item>
+    
+  </channel>
+</rss>
